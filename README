@@ -1,0 +1,6 @@
+
+Documentation is available at http://nginx.org
+
+Build Rpm Package with rpm-build tool:
+
+cd .. && tar zcvf nginx-1.14.0.tar.gz nginx-1.14.0 && rpmbuild -ta nginx-1.14.0.tar.gz
