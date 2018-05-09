@@ -4,3 +4,8 @@ Documentation is available at http://nginx.org
 Build Rpm Package with rpm-build tool:
 
 cd .. && tar zcvf nginx-1.14.0.tar.gz nginx-1.14.0 && rpmbuild -ta nginx-1.14.0.tar.gz
+
+
+优化编译参数：
+	修改 auto/cc/gcc:   注释掉 CFLAGS="$CFLAGS -g"  可以使 nginx 程序生成更小
+ 
